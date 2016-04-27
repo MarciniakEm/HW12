@@ -1,0 +1,36 @@
+import java.util.Random;
+
+
+public class Driver 
+{
+	public static void main(String[] args)
+	{
+		int[] arrayOfNumbers = new int[10];
+		Driver.fillArrayWithRandomInts(arrayOfNumbers);
+		Driver.printIntArray(arrayOfNumbers);
+		Driver.bubbleSort(arrayOfNumbers);
+		Driver.printIntArray(arrayOfNumbers);
+	}
+	
+	//Homework
+	static void bubbleSort(int[] ar)
+	{
+		int i;
+		boolean c = true;
+		int bubble;
+		
+			while(c)
+			{
+				c = false
+				for(i = 0; i < arrayOfNumbers.length-1; i++)
+					{
+						if(arrayOfNumbers[i] < arrayOfNumbers[i+1])
+						{
+							bubble = arrayOfNumbers[i];
+							arrayOfNumbers[i] = arrayOfNumbers[i+1];
+							arrayOfNumbers[i+1] = bubble;
+							c = true;
+						}
+					}
+			}
+	}
